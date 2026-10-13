@@ -1722,7 +1722,12 @@
         <div class="navbar">
             <a href="javascript:void(0)" class="logo-area" onclick="switchTab('home')" title="한진정보통신 X Google Workspace Academy">
                 <div class="logo-hanjin-group">
-                    <img src="./images/logo.png" alt="한진정보통신 로고">
+                    <img src="./images/hanjin-logo.png" 
+     alt="한진정보통신" 
+     onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';" 
+     style="height: 32px;">
+<!-- 이미지 로드 실패 시 나타날 텍스트 로고 (기본은 숨김) -->
+<span style="display:none; font-weight:bold; color:#004B93; font-size:18px;">한진정보통신</span>
                 </div>
                 <span class="logo-divider">|</span>
                 <span class="logo-gws">
